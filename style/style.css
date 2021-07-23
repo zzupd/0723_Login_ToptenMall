@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url(style_Reset.css);
+
+/* 가이드라인 시작(작업완료 후 제거대상) */
+div#wrap {
+  border: 1px solid #000;
+}
+/* div#multiTabArea {
+  border: 1px solid #000;
+} */
+
+/* 가이드라인 끝 */
+
+/* div#wrap 시작 */
+div#wrap {
+  width: 820px;
+  padding: 10px;
+  margin: 20px auto;
+}
+/* div#wrap 끝 */
+
+/* div#multiTabArea 시작 */
+div#multiTabArea {
+  margin-bottom: 30px;
+}
+div#multiTabArea > div {
+  color: #aaa;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 26px;
+
+  border-bottom: 1px solid #aaa;
+
+  cursor: pointer;
+  flex: 1;
+}
+
+#multiTabArea .selected {
+  color: #333;
+  border-color: #333;
+}
+/* div#multiTabArea 끝 */
+
+/* main#main 시작 */
+main#main {
+  border: 1px solid #000;
+}
+#main .mainContent {
+  flex: 1;
+}
+#main #verticalLine {
+  width: 1px;
+  background-color: #aaa;
+}
+
+/* #main #loginTbl {
+  border: 1px solid #000;
+} */
+
+#main #loginArea #loginTbl input {
+  width: 250px;
+  padding: 8px;
+}
+
+#main #loginArea button {
+  width: 74px;
+  height: 74px;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  margin-left: 6px;
+  background-color: #000;
+}
+
+#main div#loginItem {
+  width: 356px;
+  padding-left: 2px;
+  /* border: 1px solid #000; */
+  margin: 10px 0;
+}
+#main table#loginItemTbl td {
+  font-size: 12px;
+}
+#main table#loginItemTbl td:nth-child(2) {
+  width: 136px;
+  font-size: 13px;
+  padding-left: 6px;
+}
+#main table#loginItemTbl input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+#main #loginItemTbl a {
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 0 10px;
+  margin-top: 4px;
+  display: inline-block;
+}
+
+#main hr {
+  width: 340px;
+  margin: 30px 0;
+}
+/* main#main 끝 */
